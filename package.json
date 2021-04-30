@@ -88,9 +88,6 @@
     "biojs",
     "cytoscape"
   ],
-  "engines": {
-    "node": ">=0.10"
-  },
   "main": "dist/cytoscape.cjs.js",
   "unpkg": "dist/cytoscape.min.js",
   "jsdelivr": "dist/cytoscape.min.js",
