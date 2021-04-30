@@ -329,6 +329,7 @@ CRp.drawText = function( context, ele, prefix, applyRotation = true, useEleOpaci
       if( justification === 'auto' ){
         // then it's already ok, so skip all the other ifs
       } else if( halign === 'left' ){ // auto justification : right
+        context.textAlign= 'left'; // fix !!!
         if( justification === 'left' ){
           textX += -textW;
         } else if( justification === 'center' ){
