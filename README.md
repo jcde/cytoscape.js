@@ -9,7 +9,8 @@ and in src\extensions\renderer\canvas\drawing-label-text.js
  } else if( halign === 'left' ){ // auto justification : right
 
 \+ context.textAlign= 'left';
-   if( justification === 'left' ){
+
+if( justification === 'left' ){
       textX += -textW;
 
 fixed by adding line that starts with +
